@@ -51,3 +51,12 @@ print(f'Questão 8: A lista {letras} tem {contaA} letras a')
 numeros=[2,4,6,8,10]
 numeros.remove(6)
 print(f'Questão 9: A lista agora é:  {numeros}')
+
+#10 - verificar se é par
+ehpar = []
+numero = int(input('Digite um número: '))
+for i in range(numero+1):
+    if numero%2==0:
+        ehpar.append(i)
+print(f'Questão 10: Os números pares são:  {ehpar}')
+
