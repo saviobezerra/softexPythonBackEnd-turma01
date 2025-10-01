@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Meu nome: Sávio
-
 def exibir_menu():
     
     print("""
@@ -102,4 +99,5 @@ while True:
 
     # Caso a opção seja inválida
     else:
+
         print("\nOpção inválida. Por favor, escolha uma das opções do menu.")
